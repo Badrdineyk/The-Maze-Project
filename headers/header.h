@@ -146,7 +146,7 @@ typedef struct texture_s
 	upng_t *upngTexture;
 } texture_t;
 
-extern texture_t wallTextures[NUM_TEXTURES];
+texture_t wallTextures[NUM_TEXTURES];
 
 void WallTexturesready(void);
 void freeWallTextures(void);
